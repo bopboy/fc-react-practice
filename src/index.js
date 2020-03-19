@@ -5,8 +5,9 @@ import App from './App';
 // import ContextSample from './ContextSample';
 // import Counter from './Counter'
 import * as serviceWorker from './serviceWorker';
+import Hello from './hello'
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Hello name="react" isSpecial />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
